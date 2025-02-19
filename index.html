@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets OPTIMIZ NETWORK</title>
+    <meta name="description" content="Projet réalisé en stage chez Optimiz Network">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-theme="optimiz" data-style="normal">
+    <!-- Loader -->
+    <div id="loader">
+        <div class="logo-static"></div>
+        <div class="logo-moving"></div>
+        <div></div>
+    </div>
+    
+    <main class="menu-blur no-blur">
+        <section class="large-9 medium-8 small-10 mrlauto flex justify-center">
+            <h1 class="titre-moov large-2 medium-4 small-6"><img class="logo-optimiz" src="assets/logo_optimiz.png" alt="Logo de Optimiz Network"></h1> 
+            <div class="large-12">
+                <p class="">Optimiz Network, est un opérateur d'infrastructures et de services spécialisé dans les solutions IoT pour des environnements intelligents.</p>
+                <p class="mt16">Avec plus de 10 ans d'expérience dans les technologies de l'information et de la communication, l'entreprise accompagne collectivités, entreprises et institutions publiques dans leur transition numérique.</p>
+                <p class="mt16">Ses solutions sur-mesure incluent la gestion de capteurs connectés pour des applications telles que la qualité de l'air, la performance énergétique, la gestion de l'eau ou encore le comptage de personnes.</p>
+                <p class="mt16">En intégrant durabilité et innovation, Optimiz Network propose des systèmes fiables, interopérables et sécurisés, permettant de réduire les coûts et l'impact environnemental.</p>
+            </div>
+        </section>
+        <section class="large-10 medium-8 small-10 mrlauto flex justify-center align-center mt100">
+            <div class="large-7 medium-12 small-12 mrlauto mb48">
+                <div class="large-12 pres-titre-moov mb48">
+                    <h3 class="large-12 text-center"><span class="span-blue">/*</span> Présentation du projet OnTrack <span class="span-blue">*/</span></h3>
+                    <p class="mt48">OnTrack est une application web destinée à la gestion des interventions sur des capteurs IoT, intégrant un système de badge NFC pour un accès rapide et sécurisé.</p>
+                    <p class="mt16">J'ai conçu la maquette complète et le prototype interactif sous Figma, en m'inspirant de la charte graphique existante, avant de développer le projet.</p>
+                    <p class="mt16">Le front-end a été réalisé avec React, TypeScript et Next.js, tandis que le back-end s'appuie sur Laravel, greffé à l'API existante.</p>
+                    <p class="mt16">Les techniciens peuvent accéder aux informations essentielles d'un capteur (modèle, identifiant, date d'installation, etc.), consulter et filtrer l'historique des interventions, mettre à jour les données, ajouter des photos et enregistrer de nouvelles interventions avec des détails comme le nom, le numéro de téléphone ou la nature de l'intervention.</p>
+                    <p class="mt16">Les images sont stockées sur AWS, et l'ensemble est déployé dans un environnement dockerisé pour assurer performance et scalabilité.</p>
+                </div>
+                <h3 class="mrlauto mb48"><span class="span-blue">/*</span> Maquette <span class="span-blue">*/</span></h3>
+                <div class="large-12 flex align-center justify-around mrlauto small-center">
+                    <div class="large-12 flex justify-center">
+                        <div class="large-12"><img class="maquette-optimiz small-none" src="assets/ontrackMaquetteLarge.jpg" alt="personna de l'application"><img class="maquette-optimiz large-none" src="../assets/projet/optimiz/ontrackMaquette.jpg" alt="personna de l'application"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-4 medium-8 small-12 flex justify-center">
+                <h3 class="large-12 text-center mrlauto mb48"><span class="span-blue">/*</span> Prototype <span class="span-blue">*/</span></h3>
+                <div>
+                    <iframe style="border: 10px solid rgba(0, 0, 0); border-radius: 20px;" width="240" height="500" src="https://embed.figma.com/proto/0jvJ0Nw8w3ZX9BNLb3au45/Optimiz?node-id=7-1447&starting-point-node-id=7%3A1332&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=1" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- OnTrap -->
+        <section class="large-10 medium-8 small-10 mrlauto flex justify-center align-center mt100">
+            <div class="large-7 medium-12 small-12 mrlauto mb48">
+                <div class="large-12 pres-titre-moov mb48">
+                    <h3 class="large-12 text-center"><span class="span-blue">/*</span> Présentation du projet OnTrap <span class="span-blue">*/</span></h3>
+                    <p class="mt48">Pour ce second projet, j'ai conçu la maquette et le prototype de l'application OnTrap, destinée à la gestion de pièges à souris connectés.</p>
+                    <p class="mt16">Cette solution vise à faciliter la localisation et le suivi en temps réel des pièges déployés.</p>
+                    <p class="mt16">L'utilisateur se connecte via un processus identique à celui d'OnTrack.</p>
+                    <p class="mt16">Une fois connecté, il accède à une page regroupant tous les lieux d'installation, chacun accompagné d'une photo et d'une liste des pièges, avec en priorité ceux signalés comme capturés ou déclenchés.</p>
+                    <p class="mt16">L'utilisateur peut visualiser l'emplacement précis des pièges grâce à un plan interactif du lieu, avec la possibilité d'afficher tous les pièges d'un site.</p>
+                    <p class="mt16">Sur la page d'accueil, il peut ajouter un nouvel emplacement en renseignant les coordonnées GPS, un nom, une photo et un plan.</p>
+                    <p class="mt16">Depuis chaque page d'emplacement, il est possible de modifier la photo ou d'assigner un nouveau piège sur le plan en sélectionnant simplement l'endroit souhaité.</p>
+                </div>
+                <h3 class="mrlauto mb48"><span class="span-blue">/*</span> Maquette <span class="span-blue">*/</span></h3>
+                <div class="large-12 flex align-center justify-around mrlauto small-center">
+                    <div class="large-12 flex justify-center">
+                        <div class="large-12"><img class="maquette-optimiz small-none" src="assets/ontrapMaquetteLarge.jpg" alt="personna de l'application"><img class="maquette-optimiz large-none" src="../assets/projet/optimiz/ontrapMaquette.jpg" alt="personna de l'application"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-4 medium-8 small-12 flex justify-center">
+                <h3 class="large-12 text-center mrlauto mb48"><span class="span-blue">/*</span> Prototype <span class="span-blue">*/</span></h3>
+                <div>
+                    <iframe style="border: 10px solid rgba(0, 0, 0); border-radius: 20px;" width="240"; height="500" src="https://embed.figma.com/proto/0jvJ0Nw8w3ZX9BNLb3au45/Optimiz?node-id=7-4214&p=f&scaling=scale-down-width&content-scaling=fixed&page-id=2%3A1557&starting-point-node-id=7%3A4211&embed-host=share&hide-ui=1" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+    <div class="lumiere"></div>
+    <script src="js/commun.js" defer></script>    
+    <script src="js/theme.js" defer></script>      
+    <script src="js/lumiere.js" defer></script>  
+</body>
+</html>
